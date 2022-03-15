@@ -1,0 +1,12 @@
+Input for generator: n = 50 maxBurstTime = 1000 maxArrivalTime = 1000
+AWT fo FCFS: 889.2
+AWT fo SJF: 633.48
+AWT fo SRJF: 630.52
+AWT fo RR: 57.58
+
+Input for generator: n = 50 maxBurstTime = 1000 maxArrivalTime = 1000
+AWT fo FCFS: 598.34
+AWT fo SJF: 314.6
+AWT fo SRJF: 311.24
+AWT fo RR: 125.66
+
