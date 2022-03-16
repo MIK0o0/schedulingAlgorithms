@@ -12,12 +12,12 @@ public class Main {
         processesGenerator generator = new processesGenerator();
         ArrayList<Process> processes;
 
-        int n = 50;
-        int maxBurstTime = 100;
-        int maxArrivalTime = 1000;
+        int n = 100000;
+        int maxBurstTime = 20;
+        int maxArrivalTime = 1000000;
         generator.generator(n,maxBurstTime,maxArrivalTime);
         processes = generator.reader();
-        String input = "Input for generator: n = "+ n + " maxBurstTime = " + maxArrivalTime + " maxArrivalTime = " + maxArrivalTime;
+        String input = "Input for generator: n = "+ n + " maxBurstTime = " + maxBurstTime + " maxArrivalTime = " + maxArrivalTime;
         System.out.println(input);
 
         Collections.sort(processes, new arrivalComparator());
@@ -34,7 +34,8 @@ public class Main {
         System.out.println(srjfString);
 
         RR rr = new RR();
-        String rrString = "AWT fo RR: " + rr.RRalgorithm(processes,2);
+        int kwant = 2;
+        String rrString = "AWT fo RR: " + rr.RRalgorithm(processes,kwant) + " for " + kwant + " kwantu";
         System.out.println(rrString);
 
         Zapis zapis = new Zapis();
