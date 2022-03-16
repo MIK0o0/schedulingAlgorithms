@@ -35,8 +35,6 @@ public class SRJF {
                     current = null;
                 }
             }
-            //System.out.println(queue.size());
-            //System.out.println(workingTime+" working");
             Collections.sort(queue, burstComparator);
             int pom = 0;
             if (!queue.isEmpty() && current!=null) {
@@ -64,8 +62,6 @@ public class SRJF {
             }
 
             workingTime++;
-            //System.out.println(doneProcesses.size());
-            //System.out.println(current);
     }
 
         return avgWaitingTime/doneProcesses.size();

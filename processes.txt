@@ -40,3 +40,58 @@ AWT fo SJF: 12304.6752
 AWT fo SRJF: 12303.03199
 AWT fo RR: 250913.5655 for 2 kwantu
 
+Input for generator: n = 10000 maxBurstTime = 20 maxArrivalTime = 1000000
+AWT fo FCFS: 0.8232
+AWT fo SJF: 0.7715
+AWT fo SRJF: 0.6182
+AWT fo RR: 0.5937 for 2 kwantu
+
+Input for generator: n = 10000 maxBurstTime = 1000 maxArrivalTime = 150000
+AWT fo FCFS: 2424041.715
+AWT fo SJF: 1585173.4813
+AWT fo SRJF: 1585153.2254
+AWT fo RR: 13889.3844 for 2 kwantu
+
+Input for generator: n = 10000 maxBurstTime = 1000 maxArrivalTime = 150000
+AWT fo FCFS: 2447121.8177
+AWT fo SJF: 1614985.402
+AWT fo SRJF: 1614811.5298
+AWT fo RR: 35980.011 for 5 kwantu
+
+
+Input for generator: n = 1000 maxBurstTime = 100 maxArrivalTime = 15000
+AWT fo FCFS: 16733.63
+AWT fo SJF: 10052.049
+AWT fo SRJF: 10049.376
+AWT fo RR: 21640.907 for 5 kwantu
+
+Input for generator: n = 10000 maxBurstTime = 100 maxArrivalTime = 15000
+AWT fo FCFS: 245677.3276
+AWT fo SJF: 162319.7381
+AWT fo SRJF: 162300.8943
+AWT fo RR: 342143.9875 for 5 kwantu
+
+Input for generator: n = 10000 maxBurstTime = 100 maxArrivalTime = 15000
+AWT fo FCFS: 243953.7725
+AWT fo SJF: 162092.561
+AWT fo SRJF: 162061.7637
+AWT fo RR: 341691.0599 for 5 kwantu
+
+Input for generator: n = 10000 maxBurstTime = 100 maxArrivalTime = 15000
+AWT fo FCFS: 245125.6426
+AWT fo SJF: 161821.2073
+AWT fo SRJF: 161820.9818
+AWT fo RR: 341260.7377 for 5 kwantu
+
+Input for generator: n = 10000 maxBurstTime = 100 maxArrivalTime = 1500000
+AWT fo FCFS: 16.168
+AWT fo SJF: 14.1607
+AWT fo SRJF: 11.2816
+AWT fo RR: 30.9031 for 5 kwantu
+
+Input for generator: n = 10000 maxBurstTime = 100 maxArrivalTime = 15000
+AWT fo FCFS: 247083.0489
+AWT fo SJF: 163886.6031
+AWT fo SRJF: 163858.9246
+AWT fo RR: 820313.32 for 100 kwantu
+

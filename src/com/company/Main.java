@@ -12,9 +12,9 @@ public class Main {
         processesGenerator generator = new processesGenerator();
         ArrayList<Process> processes;
 
-        int n = 100000;
-        int maxBurstTime = 20;
-        int maxArrivalTime = 1000000;
+        int n = 10000;
+        int maxBurstTime = 100;
+        int maxArrivalTime = 15000;
         generator.generator(n,maxBurstTime,maxArrivalTime);
         processes = generator.reader();
         String input = "Input for generator: n = "+ n + " maxBurstTime = " + maxBurstTime + " maxArrivalTime = " + maxArrivalTime;
@@ -34,7 +34,7 @@ public class Main {
         System.out.println(srjfString);
 
         RR rr = new RR();
-        int kwant = 2;
+        int kwant = 100;
         String rrString = "AWT fo RR: " + rr.RRalgorithm(processes,kwant) + " for " + kwant + " kwantu";
         System.out.println(rrString);
 

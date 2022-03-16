@@ -29,7 +29,6 @@ public class RR {
                 current = queue.get(0);
                 queue.remove(0);
                 int tym = workingTime - current.getArrivalTime();
-                avgWaitingTime += tym;
                 current.setWaitingTime(tym + current.getWaitingTime());
                 current.setBurstTime(current.getBurstTime()-kwant);
                 current.setArrivalTime(workingTime+kwant);
@@ -39,9 +38,12 @@ public class RR {
                 }else {
                     queue.add(current);
                 }
-                current = null;
+                current =null;
             }
             workingTime+= kwant;
+        }
+        for(int i = 0;i<doneProcesses.size();i++){
+            avgWaitingTime += doneProcesses.get(i).getWaitingTime();
         }
         return avgWaitingTime/doneProcesses.size();
     }
